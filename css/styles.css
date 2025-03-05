@@ -31,12 +31,26 @@ li {
 }
 
 .nav-li {
+  cursor: pointer;
   font-weight: 500;
+}
+
+.nav-li:hover {
+  color: #404bbf;
+}
+
+.nav-li:active {
+  color: #404bbf;
+  text-decoration: #404bbf 4px solid;
 }
 
 .address-li {
   color: #434455;
   font-style: normal;
+}
+
+.address-li:hover {
+  color: #404bbf;
 }
 
 .invite-section {
@@ -55,6 +69,10 @@ li {
   color: #fff;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
+}
+
+.button-order:hover {
+  background-color: #404bbf;
 }
 
 h2 {
