@@ -37,7 +37,8 @@ li {
   font-weight: 500;
 }
 
-.nav-li:hover {
+.nav-li:hover,
+.nav-li:focus {
   color: #404bbf;
 }
 
@@ -46,12 +47,16 @@ li {
   text-decoration: #404bbf 4px solid;
 }
 
-.address-li {
-  color: #434455;
+.address-header {
   font-style: normal;
 }
 
-.address-li:hover {
+.address-li {
+  color: #434455;
+}
+
+.address-li:hover,
+.address-li:focus {
   color: #404bbf;
 }
 
