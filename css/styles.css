@@ -61,7 +61,7 @@ li {
   color: #404bbf;
 }
 
-.address-li:focus {
+.address-link:focus {
   color: #404bbf;
 }
 
@@ -98,6 +98,7 @@ li {
 }
 
 .section-title {
+  letter-spacing: 0.02em;
   color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
@@ -106,7 +107,8 @@ li {
   text-transform: capitalize;
 }
 
-h3 {
+.subtitle {
+  letter-spacing: 0.02em;
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
