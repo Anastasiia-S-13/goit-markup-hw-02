@@ -1,8 +1,8 @@
 body {
   font-family: 'Roboto', sans-serif;
-  color: #2e2f42;
+  color: #434455;
   background-color: #ffffff;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   font-size: 16px;
 }
@@ -21,16 +21,18 @@ li {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 117%;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-
-.logotipe-unic {
   color: #4d5ae5;
 }
 
+.logotipe-unic {
+  color: #2e2f42;
+}
+
 .nav-li {
+  color: #2e2f42;
   cursor: pointer;
   font-weight: 500;
 }
@@ -60,14 +62,13 @@ li {
 .title-page {
   color: #fff;
   font-size: 56px;
-  line-height: 107%;
+  line-height: 1.07;
   text-align: center;
 }
 
 .button-order {
   border-style: none;
   color: #fff;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
 }
 
@@ -76,16 +77,18 @@ li {
 }
 
 h2 {
+  color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
-  line-height: 111%;
+  line-height: 1.11;
   text-align: center;
 }
 
 h3 {
+  color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
 }
 
 p {
